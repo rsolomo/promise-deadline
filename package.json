@@ -1,0 +1,32 @@
+{
+  "name": "promise-deadline",
+  "version": "0.0.0",
+  "description": "Wraps a promise with a deadline.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.6"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "node test/test.deadline.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsolomo/promise-deadline.git"
+  },
+  "keywords": [
+    "promise",
+    "deadline",
+    "timeout"
+  ],
+  "author": "Ray Solomon <raybsolomon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsolomo/promise-deadline/issues"
+  },
+  "homepage": "https://github.com/rsolomo/promise-deadline#readme"
+}
