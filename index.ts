@@ -1,6 +1,6 @@
 /**
  * This module allows for the creation of promises with deadlines.
- * The intent is to avoid having async operations that can hang indefinetly.
+ * The intent is to avoid having async operations that can hang indefinitely.
  *  
  * @module promise-deadline
  */
@@ -23,11 +23,11 @@ export function deadline<T>(promise: Promise<T>, milliseconds: number): Promise<
     }, milliseconds)
 
     promise.then(function(value) {
-        clearTimeout(id)
-        resolve(value)
+      clearTimeout(id)
+      resolve(value)
     }, function(reason) {
-        clearTimeout(id)
-        reject(reason)
+      clearTimeout(id)
+      reject(reason)
     })
   })
 }

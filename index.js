@@ -1,6 +1,6 @@
 /**
  * This module allows for the creation of promises with deadlines.
- * The intent is to avoid having async operations that can hang indefinetly.
+ * The intent is to avoid having async operations that can hang indefinitely.
  *
  * @module promise-deadline
  */
