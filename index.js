@@ -1,9 +1,3 @@
-/**
- * This module allows for the creation of promises with deadlines.
- * The intent is to avoid having async operations that can hang indefinitely.
- *
- * @module promise-deadline
- */
 "use strict";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];

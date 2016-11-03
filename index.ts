@@ -1,11 +1,4 @@
 /**
- * This module allows for the creation of promises with deadlines.
- * The intent is to avoid having async operations that can hang indefinitely.
- *  
- * @module promise-deadline
- */
-
-/**
  * Wraps a promise with a deadline.
  * If the promise is not completed by the deadline, it will be rejected
  * with a DeadlineError.
