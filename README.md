@@ -1,5 +1,7 @@
 # promise-deadline
 
+[![Build Status](https://travis-ci.org/rsolomo/promise-deadline.svg?branch=master)](https://travis-ci.org/rsolomo/promise-deadline)
+
 ## Usage
 
 ### .deadline(promise, milliseconds)
